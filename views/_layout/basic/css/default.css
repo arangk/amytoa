@@ -1,0 +1,426 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* 폰트 */
+@import "../../../../assets/css/font.css";
+html {
+    scroll-behavior: smooth;
+}
+body {
+    min-width: 1170px;
+    font-family: "Noto sans KR", sans-serif;
+    color: #333333;
+    cursor: default;
+    font-weight: 400;
+    font-size: 1.3rem;
+    letter-spacing: -0.07rem;
+    background-color: #fafafa;
+}
+
+/* animate */
+.animate-2 {
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+.animate-3 {
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+.animate-4 {
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+.animate-5 {
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+/* 타이틀 */
+.left {
+    background-color: #ffffff;
+    position: fixed;
+    width: 27rem;
+    height: 100%;
+    z-index: 999;
+}
+.left .header {
+    height: 8rem;
+    line-height: 8rem;
+    padding: 0 3rem;
+}
+.left .header a {
+    display: inline-block;
+    width: 12rem;
+}
+.left .header a img {
+    width: 100%;
+}
+.top {
+    min-width: 1092.78px;
+    margin-left: 31.5rem;
+    line-height: 7rem;
+    background: #ffffff;
+    border: 1px solid #e4e4e4;
+    padding: 0 2rem;
+    position: fixed;
+    width: 77%;
+    height: 8rem;
+    z-index: 999;
+}
+.top .profile,
+.top .right-zone {
+    display: inline-block;
+}
+.top .profile {
+    font-size: 1.7rem;
+    height: 8rem;
+}
+.top .profile:before {
+    content: '';
+    display: inline-block;
+    width: 5rem;
+    height: 5rem;
+    background: #c3c3c3;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 1rem;
+}
+.top .right-zone {
+    float: right;
+    font-size: 1.7rem;
+    height: 8rem;
+}
+.top .right-zone .configuration {
+    display: inline-block;
+    position: relative;
+    top: -2rem;
+    right: -1rem;
+}
+.top .right-zone .configuration i {
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    background: url("../../../../assets/images/basic/config.png") no-repeat;
+    background-size: contain;
+}
+
+/* 본문 */
+.content_wrapper {
+    margin-left: 31.5rem;
+    margin-top: 9rem;
+    overflow: hidden;
+    padding: 3rem 2rem;
+    background: #ffffff;
+    border: 1px solid #e4e4e4;
+    width: 77%;
+}
+.content_wrapper .header {
+}
+.content_wrapper .header p {
+    margin: 0;
+    color: #2c2b2b;
+    font-size: 1.7rem;
+    font-weight: 400;
+}
+.content_wrapper .content {
+    margin-top: 3rem;
+}
+
+/* 페이징 */
+.paging {
+    margin: 2rem 0;
+    text-align: center;
+}
+.paging li {
+    display: inline-block;
+    width: 3rem;
+    height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+/*.paging li.active,
+.paging li:hover {
+    background-color: #ff6a61;
+}
+.paging li.active a,
+.paging li:hover a {
+    color: #ffffff;
+}*/
+.paging li a {
+    color: #2c2b2b;
+    line-height: 3rem;
+}
+.paging li a:hover {
+    text-decoration: none;
+}
+
+/* 버튼 */
+.btn_default {
+    display: inline-block;
+    background: transparent;
+    color: #2c2b2b;
+    border: 1px solid #9c9c9c;
+    padding: 0.71rem 2.1rem;
+    cursor: pointer;
+    text-align: center;
+}
+.btn_default:hover {
+    text-decoration: none;
+    color: #2c2b2b;
+}
+.btn_circle {
+    border-radius: 1.75rem;
+}
+.btn_small_circle {
+    border-radius: 0.5rem;
+}
+.btn_dark {
+    background: #414141;
+    color: #ffffff;
+    border: 1px solid #414141;
+}
+.btn_gray {
+    background: #4f4f4f;
+    color: #ffffff;
+    border: 1px solid #4f4f4f;
+}
+.btn_gray_outline {
+    border: 1px solid #dbdbdb;
+}
+.btn_red {
+    background: #ff6a61;
+    color: #ffffff;
+    border: 1px solid #ff6a61;
+}
+.btn_dark:hover,
+.btn_gray:hover,
+.btn_red:hover {
+    color: #ffffff;
+}
+.btn_line_red {
+    border: 1px solid #ff6a61;
+    color: #ff6a61;
+}
+.btn_line_red:hover {
+    color: #ff6a61;
+}
+.btn_medium {
+    width: 15rem;
+}
+.btn_long {
+    width: 25rem;
+}
+.btn_left {
+    float: left !important;
+}
+.disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+/* 버튼패널 */
+.btn_panel {
+    padding: 3rem 0 1rem;
+    text-align: right;
+}
+.btn_panel .btn_default {
+    margin-left: 0.5rem;
+}
+
+/* 스위치 */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 7rem;
+    height: 2.3rem;
+}
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.switch .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #b9b9b9;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 2rem;
+}
+.switch .slider:before {
+    position: absolute;
+    content: "";
+    height: 1.5rem;
+    width: 1.5rem;
+    left: 0.5rem;
+    bottom: 0.4rem;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 2rem;
+}
+
+.switch input:checked + .slider {
+    background-color: #ff6a61;
+    border-radius: 2rem;
+}
+
+.switch input:focus + .slider {
+    box-shadow: 0 0 1px #ff6a61;
+}
+
+.switch input:checked + .slider:before {
+    -webkit-transform: translateX(4.5rem);
+    -ms-transform: translateX(4.5rem);
+    transform: translateX(4.5rem);
+}
+
+/* 폼 */
+.form_default {
+    background: #f7f7f7;
+    border: 1px solid #dbdbdb;
+    color: inherit;
+    display: inline-block;
+    font-weight: lighter;
+    width: 25rem;
+    height:3.5rem;
+    padding: 0.6rem 1.2rem;
+}
+.form_default.f_input {
+    margin-left: 0;
+}
+.form_white {
+    background: #ffffff;
+    border: 1px solid #d2d2d2;
+}
+.form_round {
+    border-radius: 15rem;
+}
+.form_transparent {
+    background: #ffffff;
+    border: transparent;
+}
+.btn_default:focus,
+.form_default:focus {
+    outline: none;
+    /*box-shadow: 0 0 0.3rem 0.1rem #ff6a61;*/
+    box-shadow: unset;
+}
+.form_file {
+    font-weight: 300;
+}
+.form_file:after {
+    content: '';
+    position: relative;
+    display: inline-block;
+    background: url("../../../../assets/images/basic/icon-file.png") no-repeat;
+    width: 2.2rem;
+    height: 1.7rem;
+    float: right;
+}
+.form_disabled {
+    background-color: #fefefe;
+    border: 1px solid #f1f1f1;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    cursor: default;
+}
+.form_disabled:focus {
+    box-shadow: unset;
+}
+.form_disabled::selection {
+    background-color: transparent;
+}
+
+/* 안내 */
+.notice {
+    padding: 1rem;
+    /*margin-top: 3rem;*/
+}
+.notice.red {
+    color: #ff6b61;
+    margin: 0;
+}
+.notice.red ul li:before {
+    background-color: #ff6b61;
+}
+.notice.small {
+    font-size: 1.2rem;
+}
+.notice ul {
+    background-color: #fafafa;
+    border: 1px solid #dcdcdc;
+    font-weight: 400;
+    font-size: 1.2rem;
+    padding: 1rem;
+}
+.notice ul li {
+    margin: 0.5rem;
+}
+.notice ul li:before {
+    content: '';
+    display: inline-block;
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background-color: #16a085;
+    margin-right: 0.8rem;
+}
+/* 기본 및 상점 아이콘 */
+.icon-default:before {
+    content: '';
+    width: 2.3rem;
+    height: 2.3rem;
+    display: block;
+    background-size: contain !important;
+    position: relative;
+    top: 1.02rem;
+}
+.icon-account:before {
+    background: url("../../../../assets/images/basic/icon-account.png") no-repeat;
+}
+.icon-info:before {
+    background: url("../../../../assets/images/basic/icon-info.png") no-repeat;
+}
+.icon-store:before {
+    background: url("../../../../assets/images/basic/icon-store.png") no-repeat;
+}
+.icon-product:before {
+    background: url("../../../../assets/images/basic/icon-product.png") no-repeat;
+    left: -0.3rem;
+}
+.icon-group:before {
+    background: url("../../../../assets/images/basic/icon-group.png") no-repeat;
+}
+.icon-configuration:before,
+.icon-myconfig:before {
+    background: url("../../../../assets/images/basic/icon-configuration.png") no-repeat;
+}
+
+.admin-users:before {
+    background: url("../../../../assets/images/basic/admin-users.png") no-repeat;
+}
+.admin-shop:before {
+    background: url("../../../../assets/images/basic/icon-store.png") no-repeat;
+}
+.admin-order:before {
+    background: url("../../../../assets/images/basic/icon-product.png") no-repeat;
+    left: -0.3rem;
+}
+.logout:before {
+
+}
