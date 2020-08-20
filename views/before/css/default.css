@@ -43,6 +43,74 @@ body {
     transition: all .5s ease-in-out;
 }
 
+/* 타이틀 */
+.left {
+    background-color: #ffffff;
+    position: fixed;
+    width: 27rem;
+    height: 100%;
+    z-index: 999;
+}
+.left .header {
+    height: 8rem;
+    line-height: 8rem;
+    padding: 0 3rem;
+}
+.left .header a {
+    display: inline-block;
+    width: 12rem;
+}
+.left .header a img {
+    width: 100%;
+}
+.top {
+    min-width: 1092.78px;
+    margin-left: 31.5rem;
+    line-height: 7rem;
+    background: #ffffff;
+    border: 1px solid #e4e4e4;
+    padding: 0 2rem;
+    position: fixed;
+    width: 77%;
+    height: 8rem;
+    z-index: 999;
+}
+.top .profile,
+.top .right-zone {
+    display: inline-block;
+}
+.top .profile {
+    font-size: 1.7rem;
+    height: 8rem;
+}
+.top .profile:before {
+    content: '';
+    display: inline-block;
+    width: 5rem;
+    height: 5rem;
+    background: #c3c3c3;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 1rem;
+}
+.top .right-zone {
+    float: right;
+    font-size: 1.7rem;
+    height: 8rem;
+}
+.top .right-zone .configuration {
+    display: inline-block;
+    position: relative;
+    top: -2rem;
+    right: -1rem;
+}
+.top .right-zone .configuration i {
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    background: url("../../../../assets/images/basic/config.png") no-repeat;
+    background-size: contain;
+}
 
 /* 본문 */
 .content_wrapper {
@@ -79,7 +147,14 @@ body {
     border-radius: 50%;
     cursor: pointer;
 }
-
+/*.paging li.active,
+.paging li:hover {
+    background-color: #ff6a61;
+}
+.paging li.active a,
+.paging li:hover a {
+    color: #ffffff;
+}*/
 .paging li a {
     color: #2c2b2b;
     line-height: 3rem;

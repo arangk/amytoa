@@ -75,12 +75,12 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'mind-restored-from-200226.ckkummoqegqb.ap-northeast-2.rds.amazonaws.com',
-	'username' => 'foodoutlet',
-	'password' => 'foodoutlet1234',
-	'database' => 'foodoutlet',
+	'hostname' => 'localhost',
+	'username' => 'amytoa',
+	'password' => 'likeyou02!8',
+	'database' => 'amytoa',
 	'dbdriver' => 'mysqli',
-	'dbprefix' => 'fd_',
+	'dbprefix' => '',
 	'pconnect' => FALSE,
 	'db_debug' => (ENVIRONMENT !== 'production'),
 	'cache_on' => FALSE,

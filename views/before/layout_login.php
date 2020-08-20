@@ -12,6 +12,10 @@
     <link rel="stylesheet" type="text/css" href="<?php echo element('layout_skin_url', $layout); ?>/css/style.css"/>
     <link rel="stylesheet" type="text/css" href="<?php echo element('layout_skin_url', $layout); ?>/css/default.css"/>
 
+    <!-- 폰트 -->
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/earlyaccess/nanumgothic.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Do+Hyeon|Nanum+Gothic|Nanum+Myeongjo|Noto+Sans+KR|Noto+Serif+KR|Yeon+Sung&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" type="text/css"
           href="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/ui-lightness/jquery-ui.css"/>
 
@@ -30,7 +34,6 @@
         var cb_device_type = "<?php echo $this->myconfig->get_device_type() === 'mobile' ? 'mobile' : 'desktop' ?>";
         var cb_csrf_hash = "<?php echo $this->security->get_csrf_hash(); ?>";
     </script>
-    <script type="text/javascript" src="<?php echo base_url('assets/js/basic.js'); ?>"></script>
     <script type="text/javascript" src="<?php echo base_url('assets/js/common.js'); ?>"></script>
     <script type="text/javascript" src="<?php echo base_url('assets/js/jquery.validate.min.js'); ?>"></script>
     <script type="text/javascript" src="<?php echo base_url('assets/js/jquery.validate.extension.js'); ?>"></script>
@@ -41,6 +44,7 @@
 </head>
 <body>
 <div class="wrapper">
+    <!-- end nav -->
     <!-- 본문 시작 -->
     <?php if (isset($yield)) echo $yield; ?>
     <!-- 본문 끝 -->
