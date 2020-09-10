@@ -14,7 +14,7 @@ body {
     font-weight: 400;
     font-size: 1.3rem;
     letter-spacing: -0.07rem;
-    background-color: #fafafa;
+    background-color: #ffffff;
 }
 
 /* animate */
@@ -362,7 +362,7 @@ body {
     font-size: 1.2rem;
 }
 .notice ul {
-    background-color: #fafafa;
+    background-color: #ffffff;
     border: 1px solid #dcdcdc;
     font-weight: 400;
     font-size: 1.2rem;

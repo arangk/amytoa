@@ -4,7 +4,14 @@
 /* 폰트 */
 @import "../../../../assets/css/font.css";
 html {
+    /*overflow-y: scroll;*/
+    overflow: hidden;
     scroll-behavior: smooth;
+    ms-overflow-style: none;
+    scrollbar-width: none;
+}
+html::-webkit-scrollbar {
+    display: none;
 }
 body {
     min-width: 1170px;
@@ -14,7 +21,7 @@ body {
     font-weight: 400;
     font-size: 1.3rem;
     letter-spacing: -0.07rem;
-    background-color: #fafafa;
+    background-color: #ffffff;
 }
 
 /* animate */
@@ -45,25 +52,36 @@ body {
 
 
 /* 본문 */
-.content_wrapper {
-    margin-left: 31.5rem;
-    margin-top: 9rem;
-    overflow: hidden;
-    padding: 3rem 2rem;
+.wrapper .header {
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    padding: 2rem 5rem;
     background: #ffffff;
-    border: 1px solid #e4e4e4;
-    width: 77%;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
 }
-.content_wrapper .header {
-}
-.content_wrapper .header p {
-    margin: 0;
-    color: #2c2b2b;
+.wrapper .header a {
+    color: #ff7160;
+    text-decoration: none;
+    font-weight: 500;
     font-size: 1.7rem;
-    font-weight: 400;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
 }
-.content_wrapper .content {
-    margin-top: 3rem;
+.wrapper .header a#home {
+    float: left;
+}
+.wrapper .header ul {
+    float: right;
+}
+.wrapper .header ul li {
+    display: inline-block;
+    margin-left: 1.5rem;
 }
 
 /* 페이징 */
@@ -287,7 +305,7 @@ body {
     font-size: 1.2rem;
 }
 .notice ul {
-    background-color: #fafafa;
+    background-color: #ffffff;
     border: 1px solid #dcdcdc;
     font-weight: 400;
     font-size: 1.2rem;

@@ -29,7 +29,7 @@ $config['uri_segment_shop'] ='shop';    //상점회원 페이지 주소
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://foodoutlet.test.com/';
+$config['base_url'] = 'http://pf.amytoa.com/';
 
 /*
 |--------------------------------------------------------------------------
