@@ -41,12 +41,20 @@
 </head>
 <body>
 <div class="wrapper">
+    <div class="header animate-3" id="header">
+        <a href="#home">HOME</a>
+        <ul>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#portfolio">PORTFOLIO</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+        </ul>
+    </div>
     <!-- 본문 시작 -->
     <?php if (isset($yield)) echo $yield; ?>
     <!-- 본문 끝 -->
     <script type="text/javascript">
-        /*var scroll_event = false;
-        var scroll_idx = 1;
+        var scroll_event = false;
+        var scroll_idx = 0;
 
         (function () {
             $('html').on('mousewheel', function(e){
@@ -54,47 +62,37 @@
                 e.stopPropagation();
 
                 var wheel = e.originalEvent.wheelDelta;
-                //var h = $('.content .li').height()+1;
-				var h = $('.content').find('#main'+scroll_idx).height();
-				var position = $('.content').find('#main'+scroll_idx).position().top;
+                var h = $('.content#home').height()+1;
 
-				//h+=position;
-
-				console.log(h);
-				console.log(scroll_event);
-				console.log(wheel);
-				var scroll_top = h*scroll_idx;
-
-                if(wheel>0 && scroll_event == false && scroll_idx >= 2){
+                if(wheel>1 && scroll_event == false && scroll_idx >= 1){
                     scroll_event = true;
                     scroll_idx--;
-
-                    $('.content').stop().animate(                        {
-                            scrollTop:scroll_top
+                    $('html, body').stop().animate(
+                        {
+                            scrollTop:h*scroll_idx
                         },
                         {
-                            duration:500,
+                            duration:50,
                             complete: function(){
                                 scroll_event = false;
                             }
                         });
-                }else if(wheel<0 && scroll_event==false && scroll_idx < 4) {
+                }else if(wheel<1 && scroll_event==false && scroll_idx < 4) {
                     scroll_event = true;
                     scroll_idx++;
-
-					$('.content').stop().animate(
+                    $('html, body').stop().animate(
                         {
-                            scrollTop:scroll_top
+                            scrollTop:h*scroll_idx
                         },
                         {
-                            duration:500,
+                            duration:50,
                             complete: function(){
                                 scroll_event = false;
                             }
                         });
                 }
             });
-        })(jQuery);*/
+        })(jQuery);
     </script>
 </div>
 </body>

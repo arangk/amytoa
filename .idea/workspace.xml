@@ -2,64 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e40c4ef-52c7-4c56-a4e8-0a8bb991cced" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/images/profile/profile.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/main/basic/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/main/basic/css/main_before.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/sample/highlight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/sample/illust.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/_layout/basic/layout_before2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/main/basic/css/main_before2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/main/basic/main_before.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/config/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/config/config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/ajax-loader.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/basic/admin-users.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/basic/checkbox_default.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/basic/config.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/basic/icon-account.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/basic/icon-arrow-full-down.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/basic/icon-calendar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/basic/icon-checked-red.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/basic/icon-configuration.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/basic/icon-file.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/basic/icon-group.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/basic/icon-header1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/basic/icon-header2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/basic/icon-header3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/basic/icon-header4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/basic/icon-info.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/basic/icon-main1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/basic/icon-main2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/basic/icon-main3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/basic/icon-main4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/basic/icon-pen-white.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/basic/icon-pen.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/basic/icon-pick.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/basic/icon-plus.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/basic/icon-product.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/basic/icon-profile-off.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/basic/icon-profile-on.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/basic/icon-profile.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/basic/icon-quick.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/basic/icon-store.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/basic/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/basic/logo_big.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/basic/review_star.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/member_default.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/preload.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/social_facebook.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/social_facebook_off.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/social_google.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/social_google_off.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/social_kakao.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/social_kakao_off.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/social_naver.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/social_naver_off.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/social_twitter.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/social_twitter_off.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/_layout/basic/css/default.css" beforeDir="false" afterPath="$PROJECT_DIR$/views/_layout/basic/css/default.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/_layout/basic/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/views/_layout/basic/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/controllers/Main.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/Main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/font.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/font.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/_layout/basic/layout.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/_layout/basic/layout.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/before/css/default.css" beforeDir="false" afterPath="$PROJECT_DIR$/views/before/css/default.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/before/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/views/before/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/main/basic/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/views/main/basic/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/main/basic/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/main/basic/main.php" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,6 +22,7 @@
   </component>
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
   </component>
   <component name="FileEditorManager">
     <splitter split-orientation="horizontal" split-proportion="0.4656051">
@@ -75,26 +31,26 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/application/controllers/Main.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-57">
+                <state relative-caret-position="57">
                   <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/views/_layout/basic/layout.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="662">
+                <state relative-caret-position="1121">
                   <caret line="59" column="19" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/application/config/config.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="190">
-                  <caret line="31" column="43" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
+                <state relative-caret-position="-152">
+                  <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
                 </state>
               </provider>
             </entry>
@@ -111,8 +67,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/views/_layout/basic/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="830">
-                  <caret line="137" column="21" lean-forward="true" selection-start-line="137" selection-start-column="21" selection-end-line="137" selection-end-column="21" />
+                <state relative-caret-position="2603">
+                  <caret line="137" column="21" selection-start-line="137" selection-start-column="21" selection-end-line="137" selection-end-column="21" />
                 </state>
               </provider>
             </entry>
@@ -120,8 +76,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/views/main/basic/main.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="554">
-                  <caret line="38" column="17" lean-forward="true" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
+                <state relative-caret-position="722">
+                  <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
                 </state>
               </provider>
             </entry>
@@ -139,34 +95,12 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/views/main/basic/css/main.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="611">
-                  <caret line="225" column="15" selection-start-line="225" selection-start-column="15" selection-end-line="225" selection-end-column="15" />
-                  <folding>
-                    <element signature="e#272#469#0" />
-                    <element signature="e#510#619#0" />
-                    <element signature="e#667#900#0" />
-                    <element signature="e#947#1241#0" />
-                    <element signature="e#1283#1469#0" />
-                    <element signature="e#1504#1791#0" />
-                    <element signature="e#1837#1881#0" />
-                    <element signature="e#1907#1988#0" />
-                    <element signature="e#2027#2224#0" />
-                    <element signature="e#2263#2394#0" />
-                    <element signature="e#2415#2687#0" />
-                    <element signature="e#2711#2752#0" />
-                    <element signature="e#2779#2856#0" />
-                    <element signature="e#2888#3113#0" />
-                    <element signature="e#3151#3172#0" />
-                    <element signature="e#3208#3228#0" />
-                    <element signature="e#990#1128#0" />
-                    <element signature="e#3365#3503#0" />
-                    <element signature="e#1129#1232#0" />
-                    <element signature="e#3868#4391#0" />
-                  </folding>
+                <state relative-caret-position="618">
+                  <caret line="232" column="14" selection-start-line="232" selection-start-column="14" selection-end-line="232" selection-end-column="14" />
                 </state>
               </provider>
             </entry>
@@ -174,8 +108,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/views/_layout/basic/css/default.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="169">
-                  <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+                <state relative-caret-position="969">
+                  <caret line="51" selection-start-line="51" selection-end-line="51" />
                 </state>
               </provider>
             </entry>
@@ -310,11 +244,11 @@
         <option value="$PROJECT_DIR$/application/config/my_menu_001.php" />
         <option value="$PROJECT_DIR$/application/models/Portfolio_model.php" />
         <option value="$PROJECT_DIR$/application/controllers/Main.php" />
-        <option value="$PROJECT_DIR$/application/config/config.php" />
         <option value="$PROJECT_DIR$/views/_layout/basic/css/default.css" />
         <option value="$PROJECT_DIR$/views/main/basic/main.php" />
         <option value="$PROJECT_DIR$/views/main/basic/css/main.css" />
         <option value="$PROJECT_DIR$/views/_layout/basic/layout.php" />
+        <option value="$PROJECT_DIR$/application/config/config.php" />
       </list>
     </option>
   </component>
@@ -416,11 +350,12 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1928" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
   </component>
+  <component name="ProjectId" id="1r3g6EVCL6ve5lH29PHOph0xhW0" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -535,43 +470,39 @@
       </pane>
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/views/main/basic/css" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/uploads/sample" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="web.server" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Project\personal\amytoa\uploads\sample" />
+      <recent name="D:\Project\personal\amytoa\assets\css" />
+      <recent name="D:\Project\personal\amytoa\assets\js" />
+      <recent name="D:\Project\personal\amytoa\assets\fonts" />
+      <recent name="D:\Project\personal\amytoa\views\main\basic\css" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Project\personal\amytoa\uploads\sample" />
       <recent name="D:\Project\foodoutlet\views\shop\product\basic" />
       <recent name="D:\Project\foodoutlet\views\shop\store\basic" />
       <recent name="D:\Project\foodoutlet\views\account\basic" />
       <recent name="D:\Project\foodoutlet\application\controllers\admin" />
-      <recent name="D:\Project\foodoutlet\views\admin" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Project\personal\amytoa\views\main\basic\css" />
-      <recent name="D:\Project\personal\amytoa\assets\images\profile" />
-      <recent name="D:\Project\personal\amytoa\views" />
-      <recent name="D:\Project\personal\amytoa\application\models" />
-      <recent name="D:\Project\personal\amytoa\application\controllers" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -637,17 +568,37 @@
       <workItem from="1599178559243" duration="594000" />
       <workItem from="1599400957463" duration="493000" />
       <workItem from="1599437538276" duration="28361000" />
+      <workItem from="1600300744761" duration="1815000" />
+      <workItem from="1600647071753" duration="597000" />
+      <workItem from="1600733312720" duration="599000" />
+      <workItem from="1600920148347" duration="599000" />
+      <workItem from="1601857485027" duration="599000" />
+      <workItem from="1602461118219" duration="599000" />
+      <workItem from="1602464058925" duration="598000" />
+      <workItem from="1602547036877" duration="599000" />
+      <workItem from="1603065634876" duration="598000" />
+      <workItem from="1603239463105" duration="599000" />
+      <workItem from="1603326178689" duration="599000" />
+      <workItem from="1603671562665" duration="599000" />
+      <workItem from="1603781494537" duration="598000" />
+      <workItem from="1603843006325" duration="599000" />
+      <workItem from="1603929349806" duration="599000" />
+      <workItem from="1604275358984" duration="599000" />
+      <workItem from="1604533304129" duration="597000" />
+      <workItem from="1604620479662" duration="597000" />
+      <workItem from="1604880462523" duration="590000" />
+      <workItem from="1604993336204" duration="596000" />
+      <workItem from="1618210011313" duration="9887000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="712868000" />
+    <option name="totallyTimeSpent" value="726043000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16311301" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19731544" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -672,7 +623,22 @@
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/application/models/Board_model.php" />
@@ -789,13 +755,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.htaccess">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/config.php">
+    <entry file="file://$PROJECT_DIR$/application/controllers/Main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="31" column="43" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
+        <state relative-caret-position="57">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/_layout/basic/layout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1121">
+          <caret line="59" column="19" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -806,70 +776,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/Main.php">
+    <entry file="file://$PROJECT_DIR$/views/_layout/basic/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-57">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        <state relative-caret-position="2603">
+          <caret line="137" column="21" selection-start-line="137" selection-start-column="21" selection-end-line="137" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/main/basic/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/main/basic/css/main_before.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/_layout/basic/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="830">
-          <caret line="137" column="21" lean-forward="true" selection-start-line="137" selection-start-column="21" selection-end-line="137" selection-end-column="21" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/_layout/basic/css/default.css">
+    <entry file="file://$PROJECT_DIR$/application/config/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+        <state relative-caret-position="-152">
+          <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/main/basic/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="611">
-          <caret line="225" column="15" selection-start-line="225" selection-start-column="15" selection-end-line="225" selection-end-column="15" />
-          <folding>
-            <element signature="e#272#469#0" />
-            <element signature="e#510#619#0" />
-            <element signature="e#667#900#0" />
-            <element signature="e#947#1241#0" />
-            <element signature="e#1283#1469#0" />
-            <element signature="e#1504#1791#0" />
-            <element signature="e#1837#1881#0" />
-            <element signature="e#1907#1988#0" />
-            <element signature="e#2027#2224#0" />
-            <element signature="e#2263#2394#0" />
-            <element signature="e#2415#2687#0" />
-            <element signature="e#2711#2752#0" />
-            <element signature="e#2779#2856#0" />
-            <element signature="e#2888#3113#0" />
-            <element signature="e#3151#3172#0" />
-            <element signature="e#3208#3228#0" />
-            <element signature="e#990#1128#0" />
-            <element signature="e#3365#3503#0" />
-            <element signature="e#1129#1232#0" />
-            <element signature="e#3868#4391#0" />
-          </folding>
+        <state relative-caret-position="618">
+          <caret line="232" column="14" selection-start-line="232" selection-start-column="14" selection-end-line="232" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/main/basic/main.php">
+    <entry file="file://$PROJECT_DIR$/views/_layout/basic/css/default.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="554">
-          <caret line="38" column="17" lean-forward="true" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/_layout/basic/layout.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="662">
-          <caret line="59" column="19" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
+        <state relative-caret-position="969">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
         </state>
       </provider>
     </entry>

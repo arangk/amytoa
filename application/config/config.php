@@ -29,8 +29,8 @@ $config['uri_segment_shop'] ='shop';    //상점회원 페이지 주소
 | a PHP script and you can easily do that on your own.
 |
 */
-/*$config['base_url'] = 'http://pf.amytoa.com/';*/
-$config['base_url'] = 'http://amytoa.com/';
+$config['base_url'] = 'http://amytoa.com';
+
 
 /*
 |--------------------------------------------------------------------------
@@ -386,7 +386,6 @@ $config['encryption_key'] = '';
 */
 $config['sess_driver'] = 'files';
 $config['sess_cookie_name'] = 'ci_session';
-//$config['sess_expiration'] = 7200;
 $config['sess_expiration'] = 0;
 $config['sess_save_path'] = NULL;
 $config['sess_match_ip'] = FALSE;
@@ -537,7 +536,7 @@ $config['proxy_ips'] = '';
 |
 |
 */
-//$config['node_server'] = 'http://52.78.166.55:8700/'; // 실서버
-$config['node_server'] = 'http://localhost:8700/'; // 로컬서버
+$config['node_server'] = 'http://52.78.166.55:8700/'; // 실서버
+//$config['node_server'] = 'http://localhost:8700/'; // 로컬서버
 $config['s3_server'] = 'https://foodoutlet.s3.ap-northeast-2.amazonaws.com/'; // s3서버
 $config['oauth_access_token'] = '216e71906426e51b06a9f473947a7bdb58b0321a';

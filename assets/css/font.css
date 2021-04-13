@@ -1,11 +1,11 @@
 @charset "UTF-8";
 
-/*@font-face {
+@font-face {
     font-family: 'Noto sans';
     font-style: normal;
     font-weight: 400;
-    src: url('../../assets/fonts/NotoSansKR-Regular.eot'), !* IE9 Compat Modes *! url('../../assets/fonts/NotoSansKR-Regular.otf') format('otf'),
-    url('../../assets/fonts/NotoSansKR-Regular.eot?#iefix') format('embedded-opentype'), !* IE6-IE8 *! url('../../assets/fonts/NotoSansKR-Regular.woff') format('woff'), !* Pretty Modern Browsers *! url('../../assets/fonts/NotoSansKR-Regular.ttf') format('truetype'); !* Safari, Android, iOS *!
+    src: url('../../assets/fonts/NotoSansKR-Regular.eot'), /* IE9 Compat Modes */ url('../../assets/fonts/NotoSansKR-Regular.otf') format('otf'),
+    url('../../assets/fonts/NotoSansKR-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../../assets/fonts/NotoSansKR-Regular.woff') format('woff'), /* Pretty Modern Browsers */ url('../../assets/fonts/NotoSansKR-Regular.ttf') format('truetype'); /* Safari, Android, iOS */
     unicode-range: U+f9ca-fa0b, U+ff03-ff05, U+ff07, U+ff0a-ff0b, U+ff0d-ff19, U+ff1b, U+ff1d, U+ff20-ff5b, U+ff5d, U+ffe0-ffe3, U+ffe5-ffe6;
 }
 
@@ -13,10 +13,10 @@
     font-family: 'Noto sans bold';
     font-style: normal;
     font-weight: bold;
-    src: url('../../assets/fonts/NotoSansKR-Bold.eot'), !* IE9 Compat Modes *! url('../../assets/fonts/NotoSansKR-Bold.otf') format('otf'),
-    url('../../assets/fonts/NotoSansKR-Bold.eot?#iefix') format('embedded-opentype'), !* IE6-IE8 *! url('../../assets/fonts/NotoSansKR-Bold.woff') format('woff'), !* Pretty Modern Browsers *! url('../../assets/fonts/NotoSansKR-Bold.ttf') format('truetype'); !* Safari, Android, iOS *!
+    src: url('../../assets/fonts/NotoSansKR-Bold.eot'), /* IE9 Compat Modes */ url('../../assets/fonts/NotoSansKR-Bold.otf') format('otf'),
+    url('../../assets/fonts/NotoSansKR-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../../assets/fonts/NotoSansKR-Bold.woff') format('woff'), /* Pretty Modern Browsers */ url('../../assets/fonts/NotoSansKR-Bold.ttf') format('truetype'); /* Safari, Android, iOS */
     unicode-range: U+f9ca-fa0b, U+ff03-ff05, U+ff07, U+ff0a-ff0b, U+ff0d-ff19, U+ff1b, U+ff1d, U+ff20-ff5b, U+ff5d, U+ffe0-ffe3, U+ffe5-ffe6;
-}*/
+}
 
 @font-face {
     font-family: 'Noto Sans KR';
