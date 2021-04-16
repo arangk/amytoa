@@ -5,7 +5,6 @@
 @import "../../../../assets/css/font.css";
 html {
     /*overflow-y: scroll;*/
-    overflow: hidden;
     scroll-behavior: smooth;
     ms-overflow-style: none;
     scrollbar-width: none;
@@ -14,7 +13,6 @@ html::-webkit-scrollbar {
     display: none;
 }
 body {
-    min-width: 1170px;
     font-family: "Noto sans KR", sans-serif;
     color: #333333;
     cursor: default;
@@ -260,110 +258,4 @@ body {
     outline: none;
     /*box-shadow: 0 0 0.3rem 0.1rem #ff6a61;*/
     box-shadow: unset;
-}
-.form_file {
-    font-weight: 300;
-}
-.form_file:after {
-    content: '';
-    position: relative;
-    display: inline-block;
-    background: url("../../../../assets/images/basic/icon-file.png") no-repeat;
-    width: 2.2rem;
-    height: 1.7rem;
-    float: right;
-}
-.form_disabled {
-    background-color: #fefefe;
-    border: 1px solid #f1f1f1;
-    -ms-user-select: none;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    user-select: none;
-    cursor: default;
-}
-.form_disabled:focus {
-    box-shadow: unset;
-}
-.form_disabled::selection {
-    background-color: transparent;
-}
-
-/* 안내 */
-.notice {
-    padding: 1rem;
-    /*margin-top: 3rem;*/
-}
-.notice.red {
-    color: #ff6b61;
-    margin: 0;
-}
-.notice.red ul li:before {
-    background-color: #ff6b61;
-}
-.notice.small {
-    font-size: 1.2rem;
-}
-.notice ul {
-    background-color: #ffffff;
-    border: 1px solid #dcdcdc;
-    font-weight: 400;
-    font-size: 1.2rem;
-    padding: 1rem;
-}
-.notice ul li {
-    margin: 0.5rem;
-}
-.notice ul li:before {
-    content: '';
-    display: inline-block;
-    width: 0.5rem;
-    height: 0.5rem;
-    border-radius: 50%;
-    background-color: #16a085;
-    margin-right: 0.8rem;
-}
-/* 기본 및 상점 아이콘 */
-.icon-default:before {
-    content: '';
-    width: 2.3rem;
-    height: 2.3rem;
-    display: block;
-    background-size: contain !important;
-    position: relative;
-    top: 1.02rem;
-}
-.icon-account:before {
-    background: url("../../../../assets/images/basic/icon-account.png") no-repeat;
-}
-.icon-info:before {
-    background: url("../../../../assets/images/basic/icon-info.png") no-repeat;
-}
-.icon-store:before {
-    background: url("../../../../assets/images/basic/icon-store.png") no-repeat;
-}
-.icon-product:before {
-    background: url("../../../../assets/images/basic/icon-product.png") no-repeat;
-    left: -0.3rem;
-}
-.icon-group:before {
-    background: url("../../../../assets/images/basic/icon-group.png") no-repeat;
-}
-.icon-configuration:before,
-.icon-myconfig:before {
-    background: url("../../../../assets/images/basic/icon-configuration.png") no-repeat;
-}
-
-.admin-users:before {
-    background: url("../../../../assets/images/basic/admin-users.png") no-repeat;
-}
-.admin-shop:before {
-    background: url("../../../../assets/images/basic/icon-store.png") no-repeat;
-}
-.admin-order:before {
-    background: url("../../../../assets/images/basic/icon-product.png") no-repeat;
-    left: -0.3rem;
-}
-.logout:before {
-
 }

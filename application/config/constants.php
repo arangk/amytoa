@@ -85,24 +85,4 @@ defined('EXIT__AUTO_MIN')      OR define('EXIT__AUTO_MIN', 9); // lowest automat
 defined('EXIT__AUTO_MAX')      OR define('EXIT__AUTO_MAX', 125); // highest automatically-assigned error code
 
 
-/*
-|--------------------------------------------------------------------------
-| 노드 서버 통신 코드
-|--------------------------------------------------------------------------
-*/
-defined('F_PARAM_ERR')      OR define('F_PARAM_ERR', 100);      // 파라미터를 입력하지 않았거나 잘못되었을 경우
-defined('F_SUCCESS')        OR define('F_SUCCESS', 200);        // 성공
-defined('F_SUCCESS_REJECT') OR define('F_SUCCESS_REJECT', 201); // 응답 성공하였으나 정상 결과가 나오지 않을 때
-defined('F_ALREADY')        OR define('F_ALREADY', 203);        // 이미 존재
-defined('F_NOT_CHANGE')     OR define('F_NOT_CHANGE', 204);     // 변동사항없음
-defined('F_DB_ERR')         OR define('F_DB_ERR', 300);         // 디비 에러나 쿼리 에러 시
-
-/*
-|--------------------------------------------------------------------------
-| 이미지 리사이징 사이즈
-|--------------------------------------------------------------------------
-*/
-defined('F_thumb_size')     OR define('F_thumb_size', 120);     // 썸네일 리사이징 사이즈
-defined('F_default_size')   OR define('F_default_size', 360);   // 기본 이미지 리사이징 사이즈
-//defined('F_menu_size')      OR define('F_menu_size', 360);      // 메뉴 이미지 리사이징 사이즈
-defined('F_menu_size')      OR define('F_menu_size', 360);      // 메뉴 이미지 리사이징 사이즈
+defined('KKEY')     OR define('KKEY', 'raock1004');

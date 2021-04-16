@@ -2,7 +2,7 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 /**
  * 기본 헬퍼
- * 2020.02.19 - ARK
+ * 2020.04.15 - ARK
  */
 
 
@@ -47,22 +47,37 @@ if (!function_exists('connect_server')) {
 }
 
 /**
- * 휴대폰 번호 하이픈 넣기
+ * 휴대폰 하이픈 설정
  */
-if (!function_exists('set_phone')) {
-    function set_phone($tel, $hide = '')
-    {
-        $tel = preg_replace("/[^0-9]/", "", $tel);    // 숫자 이외 제거
-        if (substr($tel, 0, 2) == '02')
-            return preg_replace("/([0-9]{2})([0-9]{3,4})([0-9]{4})$/", "\\1-\\2-\\3", $tel);
-        else if (strlen($tel) == '8' && (substr($tel, 0, 2) == '15' || substr($tel, 0, 2) == '16' || substr($tel, 0, 2) == '18'))
-            // 지능망 번호이면
-            return preg_replace("/([0-9]{4})([0-9]{4})$/", "\\1-\\2", $tel);
-        else if ($hide == true)
-            return preg_replace("/([0-9]{3})([0-9]{3,4})([0-9]{4})$/", "\\1-****-\\3", $tel);
-        else
-            return preg_replace("/([0-9]{3})([0-9]{3,4})([0-9]{4})$/", "\\1-\\2-\\3", $tel);
-    }
+if (!function_exists('phone_format')) {
+	function phone_format($phone, $hyphen = 1)
+	{
+		if ($hyphen) {
+			$preg = "$1-$2-$3";
+		} else {
+			$preg = "$1$2$3";
+		}
+
+		$phone = preg_replace("/[^0-9]/", "", $phone);
+
+		if (substr($phone, 0, 2) == '02') {
+			$pattern = "/([0-9]{2})([0-9]{3,4})([0-9]{4})$/";
+		} else if (strlen($phone) == '8' && (substr($phone, 0, 2) == '15' || substr($phone, 0, 2) == '16' || substr($phone, 0, 2) == '18')) {
+			// 지능망 번호이면
+			$pattern = "/([0-9]{4})([0-9]{4})$/";
+			$preg = "$1-$2";
+		} else {
+			$pattern = "/([0-9]{3})([0-9]{3,4})([0-9]{4})$/";
+		}
+
+		$phone = preg_replace(
+			$pattern,
+			$preg,
+			$phone
+		);
+
+		return $phone;
+	}
 }
 
 /**
@@ -74,171 +89,6 @@ if (!function_exists('get_random_number')){
         $str = str_shuffle($str);
         $str = substr($str, 0 , 8);
 
-        return substr(date('Ymd'), 2, 7).$str;
-    }
-}
-
-/**
- * 콤마 제거
- */
-if (!function_exists('rm_comma')){
-    function rm_comma($price){
-        $price = str_replace(',', '', $price);
-
-        return $price;
-    }
-}
-
-
-/**
- * 메인 - 신규 주문요청 개수 가져오기
- */
-if (!function_exists('get_new_order')) {
-    function get_new_order($shop_id='')
-    {
-        $CI =& get_instance();
-        $CI->load->model('Shop_order_model');
-
-        $where = array(
-            'shop_id' => $shop_id,
-            'order_confirm' => 0,
-            //'order_date >=' => date('Y-m-d')
-        );
-        $new_order = $CI->Shop_order_model->get_new_order_c($where);
-
-        return $new_order;
-    }
-}
-
-/**
- * 메인 - 접수된 주문 개수 가져오기
- */
-if (!function_exists('get_confirmed_order')) {
-    function get_confirmed_order($shop_id='')
-    {
-        $CI =& get_instance();
-        $CI->load->model('Shop_order_model');
-
-        $where = array(
-            'shop_id' => $shop_id,
-            'order_confirm' => 1,
-            //'order_date >=' => date('Y-m-d')
-        );
-        $new_order = $CI->Shop_order_model->get_new_order_c($where);
-
-        return $new_order;
-    }
-}
-
-/**
- * 메인 - 배송중 주문 개수 가져오기
- */
-if (!function_exists('get_status_order')) {
-    function get_status_order($shop_id='', $status_idx='')
-    {
-        $CI =& get_instance();
-        $CI->load->model('Shop_order_model');
-
-        $where = array(
-            'shop_id' => $shop_id,
-            'order_status' => $status_idx,
-            //'order_date >=' => date('Y-m-d')
-        );
-        $new_order = $CI->Shop_order_model->get_new_order_c($where);
-
-        return $new_order;
-    }
-}
-
-/**
- * 메인 - 신규 리뷰 개수 가져오기
- */
-if (!function_exists('get_new_review')) {
-    function get_new_review($shop_id='')
-    {
-        $CI =& get_instance();
-        $CI->load->model('Shop_review_model');
-
-        $where = array(
-            'shop_id' => $shop_id,
-            'reg_date >=' => date('Y-m-d')
-        );
-        $new_review = $CI->Shop_review_model->get_total_c($where);
-
-        return $new_review;
-    }
-}
-
-/**
- * 메인 - 공지사항 및 이벤트 개수 가져오기
- */
-if (!function_exists('get_new_board')) {
-    function get_new_board()
-    {
-        $CI =& get_instance();
-        $CI->load->model('Board_model');
-
-        $where = array(
-            'reg_date >=' => date('Y-m-d H:i:s')
-        );
-        $new_board = $CI->Board_model->get_total_c($where);
-
-        return $new_board;
-    }
-}
-
-/**
- * 메인 - 재고관리 되는 매장상품 목록 가져오기
- */
-if (!function_exists('get_stock_menu')) {
-    function get_stock_menu($shop_id='')
-    {
-        $CI =& get_instance();
-        $CI->load->model('Shop_menu_model');
-
-        $where = array(
-            'fd_shop_menu.shop_id' => $shop_id,
-            'fd_shop_menu.menu_stock_use' => 1
-        );
-        $stock_menu = $CI->Shop_menu_model->get_list($where);
-
-        return $stock_menu;
-    }
-}
-
-/**
- * 메인 - 유통기한 관리 되는 매장상품 목록 가져오기
- */
-if (!function_exists('get_expiry_menu')) {
-    function get_expiry_menu($shop_id='')
-    {
-        $CI =& get_instance();
-        $CI->load->model('Shop_menu_model');
-
-        $where = array(
-            'fd_shop_menu.shop_id' => $shop_id,
-            'fd_shop_menu.menu_expiryd_use' => 1
-        );
-        $stock_menu = $CI->Shop_menu_model->get_list($where);
-
-        return $stock_menu;
-    }
-}
-
-/**
- * 메인 - VIP 고객 목록 가져오기
- */
-if(!function_exists('get_vip_list')){
-    function get_vip_list($shop_id='')
-    {
-        $CI =& get_instance();
-        $CI->load->model('Member_model');
-
-        $where = array(
-            'fd_shop_order.shop_id' => $shop_id
-        );
-        $vip_list = $CI->Member_model->get_vip_list($where);
-
-        return $vip_list;
+        return $str;
     }
 }

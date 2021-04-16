@@ -132,10 +132,7 @@ input[type=number].form-control {text-align:right;width:100px;}
 
 .wrapper {
     margin: 0;
-    min-width: 1400px;
-    max-width: 1920px;
     width: 100%;
-    overflow: hidden;
     background-color: #ffffff;
 }
 

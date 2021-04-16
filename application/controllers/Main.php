@@ -15,18 +15,34 @@ class Main extends My_Controller {
         /**
          * 모델로딩
          */
-        $this->load->model(array('Portfolio_model'));
+        $this->load->model(array('Info_model', 'Gallery_model'));
     }
 
-	public function index()
+	public function index($key)
 	{
+		if(empty($key)){
+			show_404();
+		}
         $view = array();
         $view['view'] = array();
 
+		$view['view']['key'] = $key;
+
         $view['view']['layout_title'] = $this->myconfig->item('layout_title');
 
+        //$info = $this->Info_model->get_one(null, null, array('key'=>$key));
+        $info = $this->Info_model->item($key);
+
+        if(empty($info)){
+        	show_404();
+		}
+        $gallery = $this->Gallery_model->lists(array('info_id'=>element('id', $info)), null, null);
+
+        $view['view']['info'] = $info;
+        $view['view']['gallery'] = $gallery;
+
         // 달력
-		$calendar = $this->_calendar(15, 5, 2021);
+		$calendar = $this->_calendar(element('w_date', $info), element('w_month', $info), element('w_year', $info));
 		$view['view']['calendar'] = $calendar;
 
         $layoutconfig = array(
