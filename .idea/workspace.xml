@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e40c4ef-52c7-4c56-a4e8-0a8bb991cced" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/uploads/sample/highlight.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/sample/illust.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/_layout/basic/layout_before2.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/main/basic/css/main_before2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/main/basic/main_before.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/config/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/config/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/controllers/Comment.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/Comment.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/controllers/Main.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/Main.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/font.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/font.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/_layout/basic/layout.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/_layout/basic/layout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/models/Comment_model.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/models/Comment_model.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/main/basic/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/views/main/basic/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/main/basic/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/main/basic/main.php" afterDir="false" />
     </list>
@@ -478,7 +472,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/uploads/sample" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/application/controllers" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -488,18 +482,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Project\personal\amytoa\application\controllers" />
+      <recent name="D:\Project\personal\amytoa\application\models" />
+      <recent name="D:\Project\personal\amytoa\views\main\basic" />
       <recent name="D:\Project\personal\amytoa\uploads\sample" />
       <recent name="D:\Project\personal\amytoa\assets\css" />
-      <recent name="D:\Project\personal\amytoa\assets\js" />
-      <recent name="D:\Project\personal\amytoa\assets\fonts" />
-      <recent name="D:\Project\personal\amytoa\views\main\basic\css" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Project\personal\amytoa\assets\images\basic" />
       <recent name="D:\Project\personal\amytoa\uploads\sample" />
       <recent name="D:\Project\foodoutlet\views\shop\product\basic" />
       <recent name="D:\Project\foodoutlet\views\shop\store\basic" />
       <recent name="D:\Project\foodoutlet\views\account\basic" />
-      <recent name="D:\Project\foodoutlet\application\controllers\admin" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -588,7 +582,9 @@
       <workItem from="1604620479662" duration="597000" />
       <workItem from="1604880462523" duration="590000" />
       <workItem from="1604993336204" duration="596000" />
-      <workItem from="1618210011313" duration="9887000" />
+      <workItem from="1618210011313" duration="11291000" />
+      <workItem from="1618283569994" duration="48321000" />
+      <workItem from="1618789671458" duration="2983000" />
     </task>
     <servers />
   </component>
@@ -635,6 +631,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

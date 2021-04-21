@@ -21,7 +21,6 @@ class Comment extends My_Controller {
 	public function index()
 	{
 		if($this->input->post()){
-			var_dump($this->input->post());
 			$insert_data = array(
 				'info_id' => $this->input->post('info_id'),
 				'name' => $this->input->post('name'),
@@ -36,6 +35,6 @@ class Comment extends My_Controller {
 		}else{
 			$msg = "잘못된 접근 방식입니다.";
 		}
-		alert($msg, $_SERVER['HTTP_REFERER']);
+		alert($msg, $_SERVER['HTTP_REFERER'].'#sub');
 	}
 }

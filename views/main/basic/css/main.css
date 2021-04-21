@@ -266,6 +266,42 @@
 	background: #fffef6;
 	padding: 2rem 0;
 }
+#content #sub .comment ul.list {
+	margin: 2rem;
+}
+#content #sub .comment ul.list li {
+	border-bottom: 1px solid #e2e2e2;
+	padding: 1.5rem 1rem;
+}
+#content #sub .comment ul.list li p {
+	text-align: left;
+	font-size: 1.5rem;
+	margin: 0;
+}
+#content #sub .comment ul.list li p:first-child {
+	font-weight: 400;
+	color: #efd475;
+	margin-bottom: 0.3rem;
+	font-size: 1.4rem;
+}
+#content #sub .comment ul.pagination {
+	margin: 0 2rem;
+	font-size: 1.3rem;
+}
+#content #sub .comment ul.pagination li {
+	display: inline-block;
+}
+#content #sub .comment ul.pagination li a {
+	display: block;
+	border: 1px solid #e2e2e2;
+	border-radius: 100%;
+	background: transparent;
+	cursor: pointer;
+	color: inherit;
+}
+#content #sub .comment form {
+	padding-top: 2rem;
+}
 #content #sub .comment form label {
 	display: inline-block;
 	font-weight: lighter;

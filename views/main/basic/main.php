@@ -120,9 +120,21 @@ $g_order = element('illu_order', $info)==1?'right':'left';
 				<span>Comment</span>
 				<span>축하의 한마디</span>
 			</p>
-			<ul>
-
+			<?php if(element('comment', $view)){ ?>
+			<ul class="list">
+				<?php foreach (element('comment', $view) as $c_k=>$comment){ ?>
+						<li>
+							<p><?=element('name', $comment)?></p>
+							<p><?=element('comment', $comment)?></p>
+						</li>
+				<?php } ?>
 			</ul>
+			<ul class="pagination">
+				<?php for($i=1; $i<=element('total', $view); $i++){ ?>
+					<li><a><?=$i?></a></li>
+				<?php }?>
+			</ul>
+			<?php } ?>
 			<?php
 			$attributes = array('name' => 'register_form', 'id' => 'register_form', 'enctype' => 'multipart/form-data');
 			echo form_open('comment', $attributes);

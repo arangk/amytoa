@@ -15,7 +15,7 @@ class Main extends My_Controller {
         /**
          * 모델로딩
          */
-        $this->load->model(array('Info_model', 'Gallery_model'));
+        $this->load->model(array('Info_model', 'Gallery_model', 'Comment_model'));
     }
 
 	public function index($key)
@@ -36,10 +36,21 @@ class Main extends My_Controller {
         if(empty($info)){
         	show_404();
 		}
-        $gallery = $this->Gallery_model->lists(array('info_id'=>element('id', $info)), null, null);
+        $where = array(
+			'info_id'=>element('id', $info)
+		);
+        $gallery = $this->Gallery_model->lists($where, null, null);
 
         $view['view']['info'] = $info;
         $view['view']['gallery'] = $gallery;
+
+        // comment
+		$comment = $this->Comment_model->lists($where);
+		$comment_t = $this->Comment_model->total($where);
+		$total = (int)($comment_t/7);
+
+		$view['view']['comment'] = $comment;
+		$view['view']['total'] = $total<=0?1:$total;
 
         // 달력
 		$calendar = $this->_calendar(element('w_date', $info), element('w_month', $info), element('w_year', $info));

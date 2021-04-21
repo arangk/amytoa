@@ -28,7 +28,7 @@ class Comment_model extends My_Model
 	 * @param int $offset
 	 * @return mixed
 	 */
-	public function lists($where = '', $limit = 10, $offset = 0)
+	public function lists($where = '', $limit = 7, $offset = 0)
 	{
 
 		$this->db->from($this->_table);
@@ -46,6 +46,23 @@ class Comment_model extends My_Model
 		/*var_dump($this->db->last_query());*/
 
 		$result = $qry->result_array();
+		return $result;
+	}
+
+	/**
+	 * 전체 데이터 수
+	 * @param string $where
+	 * @return mixed
+	 */
+	public function total($where=''){
+		$this->db->from($this->_table);
+
+		if($where){
+			$this->db->where($where);
+		}
+
+		$result = $this->db->count_all_results();
+
 		return $result;
 	}
 
